@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Sakshi Badhe | Portfolio</title>
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  color: #fff;
+}
+
+/* Navbar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background: rgba(255,255,255,0.05);
+  backdrop-filter: blur(10px);
+  position: sticky;
+  top: 0;
+}
+
+nav h2 {
+  color: #38bdf8;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #38bdf8;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.hero h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  color: #cbd5f5;
+}
+
+/* Sections */
+section {
+  padding: 50px 10%;
+}
+
+/* Cards */
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.card {
+  background: rgba(255,255,255,0.05);
+  padding: 15px 20px;
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  background: rgba(56,189,248,0.2);
+}
+
+/* Projects */
+.project {
+  background: rgba(255,255,255,0.05);
+  padding: 20px;
+  margin: 15px 0;
+  border-radius: 15px;
+  transition: 0.3s;
+}
+
+.project:hover {
+  transform: scale(1.02);
+  background: rgba(56,189,248,0.15);
+}
+
+.project h3 {
+  color: #38bdf8;
+  margin-bottom: 10px;
+}
+
+/* Button */
+button {
+  padding: 10px 20px;
+  background: #38bdf8;
+  border: none;
+  border-radius: 8px;
+  color: black;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0ea5e9;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #38bdf8;
+}
+
+/* Responsive */
+@media(max-width: 600px){
+  .hero h1 {
+    font-size: 28px;
+  }
+}
+</style>
+
+</head>
+
+<body>
+
+<!-- Navbar -->
+<nav>
+  <h2>Sakshi</h2>
+  <ul>
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#softskills">Soft Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- Hero -->
+<section class="hero">
+  <h1>Hello, I'm Sakshi 👋</h1>
+  <p>Aspiring Software Developer | Web Developer | UX Designer</p>
+</section>
+
+<!-- About -->
+<section id="about">
+  <h2>About Me</h2>
+  <p>
+    I am an MCA student with a background in Design and Animation.
+    Currently pursuing my Master of Computer Applications from Sri Balaji University, Pune.
+    I am passionate about UX Design and building user-friendly websites and applications.
+    I continuously explore new programming languages and technologies to develop innovative digital products.
+  </p>
+</section>
+
+<!-- Skills -->
+<section id="skills">
+  <h2>Technical Skills</h2>
+  <div class="cards">
+    <div class="card">HTML</div>
+    <div class="card">CSS</div>
+    <div class="card">JavaScript</div>
+    <div class="card">UX Design</div>
+    <div class="card">UI Design</div>
+    <div class="card">Java</div>
+    <div class="card">Python</div>
+    <div class="card">Figma</div>
+    <div class="card">Miro</div>
+    <div class="card">Sketch</div>
+    <div class="card">Dart</div>
+    <div class="card">Flutter</div>
+    <div class="card">Bootstrap</div>
+  </div>
+</section>
+
+<!-- Soft Skills -->
+<section id="softskills">
+  <h2>Soft Skills</h2>
+  <div class="cards">
+    <div class="card">🤝 Teamwork</div>
+    <div class="card">🧠 Problem-Solving</div>
+    <div class="card">🎯 Time Management</div>
+    <div class="card">💼 Adaptability</div>
+    <div class="card">🎨 Creativity</div>
+    <div class="card">📈 Leadership</div>
+    <div class="card">🗣️ Communication</div>
+  </div>
+</section>
+
+<!-- Projects -->
+<section id="projects">
+  <h2>Projects</h2>
+
+  <div class="project">
+    <h3>Netflix Clone – UX/UI Design</h3>
+    <p>
+      Designed a Netflix-inspired mobile app using Figma with high-fidelity UI and interactive prototype.
+      Focused on user-friendly navigation, modern design, and seamless user experience.
+    </p>
+  </div>
+
+  <div class="project">
+    <h3>Emerald Resort Marketing</h3>
+    <p>
+      Worked with a Pune-based resort, contributing to website design, branding, social media reels,
+      and wedding campaign promotions.
+    </p>
+  </div>
+
+  <div class="project">
+    <h3>SkillSwap App – UX/UI Project (Currently Working On)</h3>
+    <p>
+      I am currently working on SkillSwap, a mobile application that enables users to exchange skills instead of money.
+      It connects people who want to teach and learn skills within a collaborative community.
+    </p>
+    <p>
+      The app includes user profiles, skill discovery, matching system, and planned chat functionality,
+      along with a dashboard to track learning progress.
+    </p>
+    <p>
+      This project involves complete UX design including research, wireframing, and high-fidelity UI design in Figma,
+      along with development using HTML, CSS, and JavaScript.
+    </p>
+  </div>
+
+  <div class="project">
+    <h3>SB Stocks – Web Application</h3>
+    <p>
+      Completed during Semester 2 of my MCA journey, this project focuses on a platform to view and manage stock-related information.
+    </p>
+    <p>
+      The application allows users to explore stock data through a clean and user-friendly interface designed for simplicity.
+    </p>
+    <p>
+      Developed using HTML, CSS, and JavaScript, it strengthened my frontend development and problem-solving skills.
+    </p>
+  </div>
+
+</section>
+
+<!-- Contact -->
+<section id="contact">
+  <h2>Contact Me</h2>
+  <p>Email: sakshi@email.com</p>
+  <button onclick="showMessage()">Say Hello</button>
+</section>
+
+<script>
+function showMessage() {
+  alert("Thanks for visiting my portfolio! 🚀");
+}
+</script>
+
+</body>
+</html>
